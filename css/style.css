@@ -1,0 +1,361 @@
+*{
+            font-family: 'Playfair Display', serif;
+        }   
+        .fontstyle {
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            width: 120px;
+            border: 1px soild black;
+            color: black !important;
+        }
+        .fontstyle:hover{
+            background-color: red;
+            color: white !important;
+        }
+          .fontstyle-1 {
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            border: 1px soild black;
+            color: black !important;
+        }
+        .fontstyle-1:hover{
+            background-color: red;
+            color: white !important;
+        }
+        .fontstyle-P {
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            width: 140px;
+            border: 1px soild black;
+            background-color: #274472;
+            color: white !important;
+        }
+        .fontstyle-P:hover{
+            
+            color: yellow !important;
+        }
+        .navactive {
+            background-color:red ;
+            color:white !important;
+        }
+
+
+        .jumbotron-text{
+            font-size:60px;
+            font-weight: bold;
+            color:white;
+        }
+        .heightlight-text {
+            font-size:45px;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            font-style: italic;
+            letter-spacing: 2px;
+            color:red !important;
+        }
+        heightlight-hover:hover{
+            background-color: red
+        }
+        
+        .titlestyle {
+            font-size:23px;
+            letter-spacing:3px;
+            font-weight: bold;
+            color:black;
+        }
+        .author{
+            font-size: 18px;
+            letter-spacing: 3px;
+            color:darkgray;
+        }
+         footer{
+            background:red;
+            color:white
+        }
+        .carousel-inner img {
+            width: 100%;
+        }
+        . text-aligment {
+            text-align: center
+        }
+        .card-styling {
+           letter-spacing: 2px;
+        }
+        .control-styling {
+            color:red;
+            size:200px
+        }
+        .footer-header-style{
+
+            letter-spacing: 4px;
+        }
+        .icon-style{
+            font-size:21px;
+            color:white !important;
+        }
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+.copyright{
+    font-size:13px;
+    letter-spacing: 3px;
+}
+.r-fontstyle-tnc{
+    font-size:15px;
+    color: white !important;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+  @media (min-width: 320px) {  
+    .r-fontstyle-tnc {font-size: 14px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .r-fontstyle-tnc {font-size: 14px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .r-fontstyle-tnc {font-size: 15px;}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .r-fontstyle-tnc {font-size: 15px;
+   letter-spacing: 3px; }
+  }
+
+.r-fontstyle-tnc:hover{
+    background-color: white;
+    color: red !important;
+    width: 80px;
+    font-weight:bold
+}
+
+  .r-fontstyle-signup {
+      
+}
+  /* Small devices (landscape phones, 544px and up) */
+  @media (min-width: 320px) {  
+    .r-fontstyle-signup {font-size: 13px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .r-fontstyle-signup {font-size: 14px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .r-fontstyle-signup {font-size: 15px;}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .r-fontstyle-signup 
+    {
+        font-size: 15px;
+    }
+  }
+  
+  .btn-signup{
+      font-weight: bold;
+      letter-spacing: 2px; 
+
+  }
+  
+  .c-item {
+                    height: 67vh;
+                    overflow: hidden;
+                    position: relative;
+                    
+  }
+  
+  .c-container {
+                          display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    bottom: 0;
+                    top: 00px;
+                    left: 50px;
+                    right: 50px;
+  }
+  
+  .btn-style {
+      background-color: white;
+      color:red;
+  }
+  .btn-style:hover{
+      background-color: red;
+     color:white
+  }
+  .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.icon-icon {
+    
+}
+/* Small devices (landscape phones, 544px and up) */
+  @media (min-width: 320px) {  
+    .icon-icon {height: 50px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .icon-icon {height: 70px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .icon-icon {height: 70px}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .icon-icon 
+    {
+        height: 90px
+    }
+  }
+  
+  
+  
+  
+        .card-title {
+          letter-spacing: 3px;
+          font-weight:bold !important;
+          color: red !important;
+            }
+      @media (min-width: 320px) {  
+        .card-title {
+            letter-spacing: 2px;
+            font-size: 19px !important;
+            font-weight:bold !important;
+            color: red !important;
+        }
+      }
+      @media (min-width: 375px) {  
+        .card-title {
+            letter-spacing: 2px;
+            font-size: 23px;
+            font-weight:bold;
+            color: red;
+        }
+      }
+      @media (min-width: 768px) {  
+        .card-title {
+            letter-spacing: 2px;
+            font-size: 19px;
+            font-weight:bold;
+            color: red;
+        }
+      }
+      @media (min-width: 992px) { 
+        .card-title {
+            letter-spacing: 3px;
+            font-size: 20px
+        }
+      }
+      @media (min-width: 1200px) {  
+        .card-title {
+            letter-spacing: 3px;
+            font-size: 21.5px
+        }
+      }
+
+
+        .card-warpper {
+           height: 83.1px
+        }
+        
+      @media (min-width: 770px) {  
+        .r-star {
+            font-size: 2px
+        }
+      }
+      @media (min-width: 992px) {  
+        .r-star {
+            font-size: 14px
+        }
+      }
+      @media (min-width: 1200px) {  
+        .r-star {
+            font-size: 18px
+        }
+      }
+      
+      
+      
+     @media (min-width: 768px) {  
+        .r-time {
+            font-size: 9px
+        }
+      }
+      @media (min-width: 992px) { 
+        .r-time {
+            font-size: 20px
+        }
+      }
+      @media (min-width: 1200px) {  
+        .r-time {
+            font-size: 17px
+        }
+      }
+      
+      
+      .bg-danger1 {
+          background-color:red
+      }
+            .bg-danger1 > h2 {
+         font-size:50px;
+         font-style:italic;
+         font-weight: bold;
+         color:white;
+         letter-spacing: 2px
+      }
+                  .bg-danger1 > a {
+         font-size:20px;
+         font-style:italic;
+         font-weight: bold;
+         color:red !important;
+         background-color:white;
+         letter-spacing: 2px
+      }
+            @media (min-width: 320px) {  
+        .bg-danger1 > h2 {
+            font-size: 35px
+        }
+      }
+            @media (min-width: 370px) {  
+        .bg-danger1 > h2 {
+            font-size: 50px
+        }
+      }
+            @media (min-width: 320px) {  
+        .bg-danger1 > a {
+            font-size: 15px
+        }
+      }
+            @media (min-width: 370px) {  
+        .bg-danger1 > a {
+            font-size: 20px
+        }
+      }
+      footer > button {
+          color:white !important;
+          font-size: 50px
+      }

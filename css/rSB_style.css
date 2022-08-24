@@ -1,0 +1,442 @@
+*{
+            font-family: 'Playfair Display', serif;
+        }   
+        .fontstyle {
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            width: 120px;
+            border: 1px soild black;
+            color: black !important;
+        }
+        .fontstyle:hover{
+            background-color: red;
+            color: white !important;
+        }
+        .fontstyle-P {
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            width: 140px;
+            border: 1px soild black;
+            background-color: #274472;
+            color: white !important;
+        }
+        .fontstyle-P:hover{
+            
+            color: yellow !important;
+        }
+        .navactive {
+            background-color:red !important;
+            color:white !important;
+        }
+        
+        .author{
+            font-size: 18px;
+            letter-spacing: 3px;
+            color:darkgray;
+        }
+         footer{
+            background:red;
+            color:white
+        }
+        .card-styling {
+                        color: black!important;
+        }
+        .control-styling {
+            color:red;
+            size:200px
+        }
+        .footer-header-style{
+            letter-spacing: 4px;
+        }
+        .icon-style{
+            font-size:21px;
+                                    color:white !important;
+        }
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+.copyright{
+    font-size:13px;
+    letter-spacing: 3px;
+}
+.r-fontstyle-tnc{
+    font-size:15px;
+    color: white !important;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+  @media (min-width: 320px) {  
+    .r-fontstyle-tnc {font-size: 14px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .r-fontstyle-tnc {font-size: 14px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .r-fontstyle-tnc {font-size: 15px;}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .r-fontstyle-tnc {font-size: 15px;
+   letter-spacing: 3px; }
+  }
+
+.r-fontstyle-tnc:hover{
+    background-color: white;
+    color: red !important;
+    width: 80px;
+    font-weight:bold
+}
+
+  .r-fontstyle-signup {
+      
+}
+  /* Small devices (landscape phones, 544px and up) */
+  @media (min-width: 320px) {  
+    .r-fontstyle-signup {font-size: 13px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .r-fontstyle-signup {font-size: 14px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .r-fontstyle-signup {font-size: 15px;}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .r-fontstyle-signup 
+    {
+        font-size: 15px;
+    }
+  }
+  
+  .btn-signup{
+      font-weight: bold;
+      letter-spacing: 2px; 
+
+  }
+  
+  .c-item {
+                    height: 65vh;
+                    overflow: hidden;
+                    position: relative;
+                    
+  }
+  
+  .c-container {
+                          display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    bottom: 0;
+                    top: 00px;
+                    left: 50px;
+                    right: 50px;
+  }
+  
+  .btn-style {
+      background-color: white;
+      color:red;
+  }
+  .btn-style:hover{
+      background-color: red;
+     color:white
+  }
+  .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.icon-icon {
+    
+}
+/* Small devices (landscape phones, 544px and up) */
+  @media (min-width: 320px) {  
+    .icon-icon {height: 50px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .icon-icon {height: 70px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .icon-icon {height: 70px}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .icon-icon 
+    {
+        height: 90px
+    }
+  }
+  .card-title {
+      letter-spacing: 3px;
+      font-weight:bold;
+      color: red;
+      
+  }
+  @media (min-width: 320px) {  
+    .card-title {
+        letter-spacing: 2px;
+        font-size: 19px;
+    }
+  }
+
+  @media (min-width: 375px) {  
+    .card-title {
+        letter-spacing: 2px;
+        font-size: 23px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .card-title {
+        letter-spacing: 2px;
+        font-size: 19px
+    }
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .card-title {
+        letter-spacing: 3px;
+        font-size: 20px
+    }
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .card-title {
+        letter-spacing: 3px;
+        font-size: 21.5px
+    }
+  }
+  .time {
+      font-size: 18px;
+      font-family: arial;
+      letter-spacing: 1px;
+  }
+  
+          .breadcrumb-fontstyle {
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing:2px;
+            color:black
+        }
+        .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+            content: none; }
+         .bcactive{
+            background-color: red
+        }
+
+.submenu {
+    color:red !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px
+}
+.nav-link[data-toggle].collapsed:after {
+    content: "▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "▴";
+}
+.page-item{
+    font-size: 18px;
+    font-weight: bold;
+    width: 50px;
+}
+.page-link:hover{
+    color:red !important;
+    background-color: #ffc107 !important
+}
+
+.page-link{
+     font-family: arial;
+     color:red;
+}
+.jumbotron-image {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .jumbotron-text-title{
+            font-size:53px;
+            font-weight: bold;
+            letter-spacing:3px;
+            color:white;
+            background-color: red;
+            padding: 0px 10px 0px 10px
+        }
+        .jumbotron-text{
+            font-size:25px;
+            font-weight: bold;
+            letter-spacing:3px;
+            color:white;
+            background-color: red;
+        }
+        .heightlight-text {
+            font-size:60px;
+            letter-spacing:2px;
+            font-style: italic;
+            color:red;
+            font-weight: bold
+        }
+        .titlestyle {
+            font-size:23px;
+            letter-spacing:3px;
+            font-weight: bold;
+            color:black;
+        }
+        .author{
+            font-size: 18px;
+            letter-spacing: 3px;
+            color:darkgray;
+        }
+        .title {
+            font-size: 28px;
+            letter-spacing: 3px;
+            font-weight: bold
+        }
+        
+        /* Small devices (landscape phones, 544px and up) */
+  @media (min-width: 320px) {  
+    .title {font-size: 22px;
+    text-align: center;}
+  }
+    @media (min-width: 425px) {  
+    .title {font-size: 22px;}
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .title {font-size: 20px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .title {font-size: 24px;}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1450px) {  
+    .title {font-size: 35px;}
+  }
+        
+        .title2 {
+            font-size: 23px;
+            letter-spacing: 1px;
+        }
+          @media (min-width: 320px) {  
+    .title2 {font-size: 19px;}
+  }
+    @media (min-width: 425px) {  
+    .title2 {font-size: 20px;}
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .title2 {font-size: 18px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .title2 {font-size: 21px;}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1450px) {  
+    .title2 {font-size: 27px;}
+  }
+        .inside{
+            font-size: 22px;
+            letter-spacing: 1px;
+            line-height: 2;
+        }
+@media (min-width: 320px) {  
+    .inside {font-size: 19px;}
+  }
+    @media (min-width: 425px) {  
+    .inside {font-size: 20px;}
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .inside {font-size: 18px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .inside {font-size: 19px;}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1450px) {  
+    .inside {font-size: 23px;
+    }
+  }
+  .text-cool {
+      font-style: italic;
+      font-weight:bold;
+      color:white;
+      letter-spacing: 3px
+  }
+        .bg-danger1 {
+          background-color:red
+      }
+            .bg-danger1 > h2 {
+         font-size:50px;
+         font-style:italic;
+         font-weight: bold;
+         color:white;
+         letter-spacing: 2px
+      }
+                  .bg-danger1 > a {
+         font-size:20px;
+         font-style:italic;
+         font-weight: bold;
+         color:red !important;
+         background-color:white;
+         letter-spacing: 2px
+      }
+            @media (min-width: 320px) {  
+        .bg-danger1 > h2 {
+            font-size: 35px
+        }
+      }
+            @media (min-width: 370px) {  
+        .bg-danger1 > h2 {
+            font-size: 50px
+        }
+      }
+            @media (min-width: 320px) {  
+        .bg-danger1 > a {
+            font-size: 15px
+        }
+      }
+            @media (min-width: 370px) {  
+        .bg-danger1 > a {
+            font-size: 20px
+        }
+      }
+              .card-warpper {
+           height: 83.1px
+        }
